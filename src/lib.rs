@@ -16,10 +16,7 @@ impl HTTPSClient {
         info!("{}","Initializing HTTPS Client...")
 
     }
-}
-
-impl Network for HTTPSClient {
-    fn handle(&mut self, packet: &mut Packet) {
+    pub fn handle(&mut self, packet: &mut Packet) {
         info!("Handling incoming packet id={}",packet.id);
 
     }
