@@ -7,10 +7,10 @@ pub struct HTTPSClient {
 }
 
 impl HTTPSClient {
-    pub fn new() -> Box<HTTPSClient> {
-        Box::new(HTTPSClient {
+    pub fn new() -> HTTPSClient {
+        HTTPSClient {
 
-        })
+        }
     }
     pub fn init(&mut self) {
         info!("{}","Initializing HTTPS Client...")
