@@ -1,4 +1,4 @@
-use ra_common::models::{Network, Packet};
+use ra_common::models::{Packet};
 
 use log::{trace,info};
 
